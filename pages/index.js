@@ -1,6 +1,6 @@
 "use client"
 import  from '../components/LanguageSwitcher';
-import {  } from '../contexts/LanguageContext';
+// import {  } from '../contexts/LanguageContext';
 
 const Home = () => {
     
