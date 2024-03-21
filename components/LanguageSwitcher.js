@@ -1,10 +1,11 @@
 "use client"
-// import {  } from '../contexts/LanguageContext';
-import { useContext } from "react";
-import { LanguageContext } from "@/contexts/LanguageContext";
+import { useLanguageContext } from '../contexts/LanguageContext';
+// import { useContext } from "react";
+// import { LanguageContext } from "@/contexts/LanguageContext";
 
 const LanguageSwitcher = () => {
-    const languageState = useContext(LanguageContext);
+    // const languageState = useContext(LanguageContext);
+    const languageState = useLanguageContext();
 
     return (
         <select 

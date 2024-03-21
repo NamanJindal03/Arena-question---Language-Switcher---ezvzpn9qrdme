@@ -1,11 +1,13 @@
 "use client"
 import LanguageSwitcher from '../components/LanguageSwitcher';
-// import {  } from '../contexts/LanguageContext';
-import { useContext } from "react";
-import { LanguageContext } from "@/contexts/LanguageContext";
+import { useLanguageContext } from '../contexts/LanguageContext';
+
+// import { useContext } from "react";
+// import { LanguageContext } from "@/contexts/LanguageContext";
 
 const Home = () => {
-    const languageState = useContext(LanguageContext);
+    // const languageState = useContext(LanguageContext);
+    const languageState = useLanguageContext();
 
     const content = {
         en: {
